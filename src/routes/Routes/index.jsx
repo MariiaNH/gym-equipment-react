@@ -1,5 +1,5 @@
 import { Routes, Route, Navigate } from "react-router-dom";
-import NotFound  from "../../COMPONENTS/NotFound/NotFound";
+import NotFound  from "../../pages/NotFound/NotFound";
 import useAuth from "../../ASSETS/hooks/useAuth";
 
 import {
@@ -18,6 +18,7 @@ function AppRoutes() {
         <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/home" element={<Navigate to="/" />} />
+            <Route path="/shop" element={<Navigate to="/" />} />
             <Route path="/not-found-404" element={<NotFound />} />
             <Route path="/login" element={<Login />} />
             <Route path="/registration" element={<Registration />} />
