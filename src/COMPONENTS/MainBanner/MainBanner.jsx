@@ -1,11 +1,10 @@
 import {Link} from "react-router-dom";
-import mainBannerbackground from './IMAGES/mainBannerbackground.svg';
 
 
 const MainBanner = () => {
 
     const backgroundImageStyle = {
-        backgroundImage: `url(${mainBannerbackground})`,
+        backgroundImage: `url(./IMAGES/mainBannerbackground.svg)`,
         backgroundPosition: 'center',
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
