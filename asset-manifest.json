@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/gym-equipment-react/static/css/main.d8076b7a.css",
+    "main.js": "/gym-equipment-react/static/js/main.dee357d8.js",
+    "static/js/787.f1d0b4c2.chunk.js": "/gym-equipment-react/static/js/787.f1d0b4c2.chunk.js",
+    "index.html": "/gym-equipment-react/index.html",
+    "main.d8076b7a.css.map": "/gym-equipment-react/static/css/main.d8076b7a.css.map",
+    "main.dee357d8.js.map": "/gym-equipment-react/static/js/main.dee357d8.js.map",
+    "787.f1d0b4c2.chunk.js.map": "/gym-equipment-react/static/js/787.f1d0b4c2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d8076b7a.css",
+    "static/js/main.dee357d8.js"
+  ]
+}
