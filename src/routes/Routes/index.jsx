@@ -17,6 +17,7 @@ function AppRoutes() {
     return auth.isLoaded ? (
         <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/home" element={<Navigate to="/" />} />
             <Route path="/not-found-404" element={<NotFound />} />
             <Route path="/login" element={<Login />} />
             <Route path="/registration" element={<Registration />} />

@@ -20,7 +20,7 @@ const NotFound = () => {
                         It looks like the link you are trying to reach is broken or has been moved. Our technical team have been notified and will take a look to see whats going on.
                     </p>
 
-                    <Link to={'/shop'}>
+                    <Link className='link' to={'/shop'}>
                         <button className='button button-primary notFound__button'> Go to shop</button>
                     </Link>
                 </div>
