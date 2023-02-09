@@ -1,5 +1,5 @@
 import {Link} from "react-router-dom";
-import mainBannerbackground from './gym-equipment-react/IMAGES/mainBannerbackground.svg';
+import mainBannerbackground from './IMAGES/mainBannerbackground.svg';
 
 
 const MainBanner = () => {
@@ -17,7 +17,7 @@ const MainBanner = () => {
         <>
             <div className="mainBanner mainBanner-desktop">
                 <div className="mainBanner-background" style={backgroundImageStyle}>
-                    <img className="mainBanner-image" src={'./gym-equipment-react/IMAGES/man.svg'}/>
+                    <img className="mainBanner-image" src={'./IMAGES/man.svg'}/>
                     <div className="mainBanner-content">
                         <h1 className=" mainBanner-text mainBanner-text--regular">
                             become a member of
