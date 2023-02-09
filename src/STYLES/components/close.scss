@@ -1,0 +1,10 @@
+.close {
+  position: absolute;
+  right: 25px;
+  top: 25px;
+
+  &-image {
+    width: 13px;
+    height: 13px;
+  }
+}

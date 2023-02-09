@@ -1,0 +1,75 @@
+.announcementBar {
+  height: 40px;
+  background-color: $colormainBlack;
+  opacity: 0.9;
+
+  &__content {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    position: relative;
+  }
+}
+
+.announcementsCarousel {
+  height: 100%;
+  max-width: 70%;
+  min-width: 280px;
+}
+
+.carousel {
+  &-item.active {
+    display: flex!important;
+  }
+
+  &-indicators {
+    display: none!important;
+  }
+
+  &-inner {
+    padding: 0 36px;
+    height: 100%;
+
+    @include onPad {
+      padding: 0 100px;
+    }
+
+    @include onDesktop {
+      padding: 0 150px;
+    }
+  }
+}
+
+.announcement {
+  &-item {
+    height: 100%;
+
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+  }
+
+  &-text {
+    margin: 0;
+    font-family: 'Industry-Book';
+    @include textSmall;
+
+    color: $colorFontLightGrey;
+    opacity: 0.8;
+  }
+
+  &-link {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    &-text {
+      margin: 0;
+
+      font-family: 'Industry-Medium';
+      color: $colorFontLightGrey;
+    }
+  }
+}

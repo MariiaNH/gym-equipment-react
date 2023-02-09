@@ -1,0 +1,19 @@
+@mixin onPad {
+  @media (min-width: 600px) {
+    @content;
+  }
+}
+
+
+@mixin onDesktop {
+  @media (min-width: 1024px) {
+    @content;
+  }
+}
+
+@mixin textSmall {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+}

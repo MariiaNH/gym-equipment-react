@@ -1,0 +1,36 @@
+.customerActions {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  gap: 6px;
+
+  @include onDesktop {
+    display: flex;
+  }
+
+  &__button {
+    width: 70px;
+    height: 28px;
+
+    font-family: 'Industry-Demi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    text-transform: uppercase;
+
+  &-login {
+    color: $colorWhite;
+    background-color: $colormainBlack;
+    opacity: 0.9;
+    border: 1px solid $colorButtonBorderGrey
+  }
+    &-signUp {
+      background-color: $colorAccentYellow;
+      color: $colormainBlack;
+      border: 0;
+    }
+  }
+}

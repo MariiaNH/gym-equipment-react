@@ -1,0 +1,21 @@
+.footer {
+  background-color: $colormainBlack;
+}
+
+.footer-desktop {
+  display: none;
+  height: 560px;
+
+  @include onPad {
+    display: block;
+  }
+}
+
+.footer-mobile {
+  display: block;
+  height: 560px;
+
+  @include onPad {
+    display: none;
+  }
+}

@@ -1,0 +1,57 @@
+.notFound {
+  position: relative;
+
+  &::before {
+    position: absolute;
+    content: " ";
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 95.82%);
+  }
+
+  &__content {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 400px;
+  }
+
+  &__title {
+    margin-bottom: 16px;
+
+    font-family: 'Industry-Bold';
+    line-height: 110%;
+    letter-spacing: -0.005em;
+    color: $colorWhite;
+
+    &-main {
+      font-weight: 700;
+      font-size: 90px;
+    }
+
+    &-subtitle {
+      font-weight: 400;
+      font-size: 36px;
+    }
+  }
+
+  &__text {
+    margin-bottom: 40px;
+
+    font-family: 'Industry-Light';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+    letter-spacing: -0.005em;
+    color: $colorWhite;
+  }
+
+  &__button {
+    width: 175px;
+    height: 55px;
+  }
+}
